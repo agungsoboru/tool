@@ -1,7 +1,7 @@
 #!/bin/bash
 
 commands=(
-    "apt update && apt install bmon iftop dnsutils iptoute2 tshark net-tools tcptrack iptraf-ng"
+    "apt update && apt install bmon iftop dnsutils iproute2 tshark net-tools tcptrack iptraf-ng"
     "tshark -i $var -w network.pcap -F libpcap"
     "tcptrack -i $var"
     "hostnamectl status"
